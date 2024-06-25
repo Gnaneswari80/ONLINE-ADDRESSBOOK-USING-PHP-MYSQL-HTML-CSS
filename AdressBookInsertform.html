@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+/*label
+{
+display:inline-block;
+
+float:left;
+clear:left;
+width:250px;
+text-align:left;
+}
+input
+{
+display:inline-block;
+float:left;
+}
+*/
+</style>
+</head>
+<body>
+<form action="AdressBookInsertform.php" method="POST">
+Aid:<input type="text" name="aid"><br><br>
+name:<input type="text" name="name">
+Last Name:<input type="text" name="ln"><br><br>
+Street Adress:<input type="text" name="sa"><br><br>
+CITY/state/zip:<input type="text" name="city">
+                  <input type="text" name="state">
+                  <input type="text" name="zip"><br><br>
+Adress Type:<br>
+<input type="radio" value="home" name="at">home
+<input type="radio"  value="work" name="at">work
+<input type="radio" value="other"name="at">other<br><br>
+Telephone Number<input type="text" name="tn">
+               <input type="radio" value="home" name="tnr">home
+<input type="radio" value="work" name="tnr">work
+<input type="radio"  value="other"name="tnr">other<br><br>
+
+Fax Number<input type="text" name="fn">
+               <input type="radio" value="home" name="fnr">home
+<input type="radio"  value="work"name="fnr">work
+<input type="radio" value="other" name="fnr">other<br><br>
+
+Email Adress<input type="text" name="ea">
+               <input type="radio" value="home"s name="ear">home
+<input type="radio" value="work" name="ear">work
+<input type="radio" value="other" name="ear">other<br><br>
+Personal Note:<input type="text" name="pn">
+<input type="submit" value="INSERT">
+</form>
+</body>
+</html>
